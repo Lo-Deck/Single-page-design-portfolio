@@ -12,15 +12,9 @@ body{
     font-weight: 500;
     font-style: normal;
     text-align: center;
-
-
-
     display: grid;
     justify-content: center;
-
-  
     background-color: #fff7f0;
-
 }
 
 img{
@@ -199,15 +193,8 @@ button:hover{
 /*SLIDE*/
 
 .section-slide{
-
-    /*
-    margin: 0 auto;
-    */
     margin-bottom: 6.25rem;
     margin: 0 auto 6.25rem;
-    /*
-    overflow-x: hidden;
-    */
 }
 
 .slide-title{
@@ -231,8 +218,6 @@ button:hover{
     display: none;
 }
 
-
-
 .prev{  
     position: absolute; 
         top: 0; left: -16rem;
@@ -249,24 +234,6 @@ button:hover{
         top: 0; left: 19.7rem;
 }
 
-
-/*
-.prev{  
-    position: relative; 
-        top: 0; left: -16rem;
-}
-
-.center{
-    margin: 0 auto;
-    position: relative;
-        top: 0; left: 0;
-}
-
-.next{  
-    position: relative;
-        top: 0; left: 19.7rem;
-}
-*/
 
 /*BUTTON-SLIDE*/
 
