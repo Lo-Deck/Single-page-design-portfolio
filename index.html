@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="description" content="Exercise Frontend Mentor, Single-page design portfolio">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap" rel="stylesheet">
+      <link href="style.css" rel="stylesheet" type="text/css">
+      <title>Frontend Mentor | Single-page design portfolio</title>
+    </head>
+    <body>
+
+      <header class="container-header">
+
+        <div class="display-header">
+          <img class="logo-header" src="./images/logo.svg" alt="brand-logo">
+          <button class="button button-header">Free Consultation</button>
+        </div>
+
+        <h1 class="title header-title">Design solutions made easy</h1>  
+        <p class="text header-text">With over ten years of experience in various design disciplines, I’m your one-stop shop for your design needs.</p>
+
+      </header>
+
+
+      <main class="container">
+
+        <div class="block-container">
+          <div class="block graphic-design"><span class="block-text">Graphic Design</span></div>
+          <div class="display-inline-block">
+            <div class="block ui"><span class="block-text">UI/UX</span></div>
+            <div class="block apps"><span class="block-text">Apps</span></div> 
+          </div>
+          <div class="block illustrations"><span class="block-text">Illustrations</span></div>
+          <div class="block photography"><span class="block-text">Photography</span></div>
+          <div class="block motion-graphics"><span class="block-text">Motion Graphics</span></div>
+        </div>
+
+        <section class="presentation">
+          <img class="section-image" src="./images/image-amy.webp" alt="hero">
+          <div class="display-section-text">
+            <h2 class="title section-title">I’m Amy, and I’d love to work on your next project</h2>
+            <p class="text section-text">I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations 
+              to complete mobile apps. I’m also handy with a camera!</p> 
+            <button class="button button-section">Free Consultation</button>  
+          </div>
+        </section>
+
+        <section class="section-slide">
+          <h2 class="title slide-title">My Work</h2>
+          <div class="image-container">    
+            <img class="slide-image hidden"  src="./images/image-slide-1.jpg" alt="">
+            <img class="slide-image prev"  src="./images/image-slide-2.jpg" alt="">
+            <img class="slide-image center"  src="./images/image-slide-3.jpg" alt="">
+            <img class="slide-image next"  src="./images/image-slide-4.jpg" alt="">
+            <img class="slide-image hidden"  src="./images/image-slide-5.jpg" alt="">
+          </div>
+          <div class="container-button">
+            <button class="button-slide" id="button-left"><img src="./images/icon-arrow-left.svg" alt="left"></button>
+            <button class="button-slide" id="button-right"><img src="./images/icon-arrow-right.svg" alt="right"></button>
+          </div>
+        </section>
+
+        <section class="section-book">
+          <div class="display-text">
+            <h2 class="title book-title">Book a call with me</h2>
+            <p class="text book-text">I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project during a 
+              free consultation. Then we can move forward from there.</p>   
+          </div>
+          <button class="button button-section">Free Consultation</button>
+        </section>
+
+        <div class="display-main">
+          <img class="logo-header" src="./images/logo.svg" alt="brand-logo">
+          <button class="button button-header">Free Consultation</button>
+        </div>
+
+      </main>
+
+    <script  src="./script.js"></script>
+
+    </body>
+
+</html>
